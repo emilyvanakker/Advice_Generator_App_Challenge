@@ -1,0 +1,51 @@
+body {
+    background-color: #202733;
+    font-family: Manrope;
+}
+
+article {
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 0.5rem;
+    position: relative;
+    padding: 1rem 2rem;
+    width: min-content;
+}
+
+h6 {
+    color:hsl(150, 100%, 66%);
+    font-size: small;
+    letter-spacing: 0.25rem;
+}
+
+q {
+    font-size: 25px;
+    color: hsl(193, 38%, 86%);
+    padding: 0 1rem;
+}
+
+.divider {
+    margin: 3rem 1rem 3.5rem 1rem;
+}
+
+button {
+    position: absolute;
+    bottom: -2em;
+    left: calc(50% - 2em);
+    background-color: hsl(150, 100%, 66%);
+    width: 4em;
+    height: 4em;
+    border: none;
+}
+
+button:active, button:hover {
+    box-shadow: 0 0 1rem 0.75rem rgba(82 255 168 / 25%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
