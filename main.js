@@ -7,7 +7,7 @@ $(document).ready( function () {
 });
 
 function getAdvice(){
-    $('#generate_advice').attr("disabled", true);
+    // this is where I would start the loading animation for the button
     $.ajax({
         url: "https://api.adviceslip.com/advice",
         type: 'get',
@@ -17,7 +17,7 @@ function getAdvice(){
             $('#advice_text').text(res.slip.advice);
         },
         complete: function(){
-            $('#generate_advice').attr("disabled", false);
+            // this is where I would stop the loading animation
         }
     });
 }
