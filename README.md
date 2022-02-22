@@ -35,5 +35,6 @@ For continued development I would add a loading animation to the button while th
 
 ## Author
 
+- Website - [Emily van Akker](https://emilyvanakker.github.io/Advice_Generator_App_Challenge/)
 - Frontend Mentor - [@emilyvanakker](https://www.frontendmentor.io/profile/emilyvanakker)
 
