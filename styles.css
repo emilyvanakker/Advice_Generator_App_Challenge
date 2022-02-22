@@ -1,12 +1,15 @@
 body {
     background-color: #202733;
     font-family: Manrope;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 article {
     background-color: hsl(217, 19%, 24%);
     border-radius: 0.5rem;
-    margin-top: 7rem;
     padding: 2rem;
     position: relative;
     width: min-content;

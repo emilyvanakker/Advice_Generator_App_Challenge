@@ -1,5 +1,7 @@
 $(document).ready( function () {
-    getAdvice();
+    // template advice on load
+    $('#advice_number').text("117");
+    $('#advice_text').text("It is easy to sit up and take notice, what's difficult is getting up and taking action.");
     
     $('#generate_advice').click(() => {
         getAdvice();
