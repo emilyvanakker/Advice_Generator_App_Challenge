@@ -20,7 +20,7 @@
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
-		<div class="container">
+		<main class="container" role="main">
 			<div class="row">
 				<div class="col-12 m-auto">
 					<article class="text-center mx-auto">
@@ -29,24 +29,22 @@
 						<!-- Advice quote goes here -->
 						<q id="advice_text"></q>
 						<div class="mt-4 mb-5">
-							<img class="d-md-none m-auto" src="./images/pattern-divider-mobile.svg">
-							<img class="d-none d-md-block m-auto" src="./images/pattern-divider-desktop.svg">
+							<img class="d-md-none m-auto" src="./images/pattern-divider-mobile.svg" alt="mobile page divider">
+							<img class="d-none d-md-block m-auto" src="./images/pattern-divider-desktop.svg" alt="desktop page divider">
 						</div>
-						<button type="submit" class="rounded-circle" id="generate_advice"><img src="./images/icon-dice.svg"></button>
+						<button type="submit" class="rounded-circle" id="generate_advice" title="Generate Advice"><img src="./images/icon-dice.svg" alt="dice icon"></button>
 					</article>
 				</div>
 			</div>
-			<div class="row fixed-bottom">
-				<div class="col-12 col-md-6 m-auto">
-					<div class="attribution pb-3">
-						Challenge by
-						<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-							>Frontend Mentor</a
-						>. Coded by <a href="#">Emily van Akker</a>.
-					</div>
-				</div>
+		</main>
+		<footer class="fixed-bottom" role="contentinfo">
+			<div class="attribution pb-3 m-auto">
+				Challenge by
+				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+					>Frontend Mentor</a
+				>. Coded by <a href="#">Emily van Akker</a>.
 			</div>
-		</div>
+		</footer>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 		<script src="./main.js"></script>
