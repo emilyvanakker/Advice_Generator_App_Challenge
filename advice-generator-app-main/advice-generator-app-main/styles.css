@@ -6,8 +6,9 @@ body {
 article {
     background-color: hsl(217, 19%, 24%);
     border-radius: 0.5rem;
+    margin-top: 7rem;
+    padding: 2rem;
     position: relative;
-    padding: 1rem 2rem;
     width: min-content;
 }
 
@@ -20,11 +21,6 @@ h6 {
 q {
     font-size: 25px;
     color: hsl(193, 38%, 86%);
-    padding: 0 1rem;
-}
-
-.divider {
-    margin: 3rem 1rem 3.5rem 1rem;
 }
 
 button {
@@ -37,13 +33,14 @@ button {
     border: none;
 }
 
-button:active, button:hover {
+button:active {
     box-shadow: 0 0 1rem 0.75rem rgba(82 255 168 / 25%);
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: hsl(193, 38%, 86%);
 }
 
 .attribution a {
