@@ -17,7 +17,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 Users should be able to:
 
-- Click on the dice button to generated a new peice of advice to display
+- Click on the dice button to generate a new peice of advice
 
 ## My process
 
