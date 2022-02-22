@@ -30,10 +30,7 @@ Users should be able to:
 
 ### Continued development
 
-I would like to continue working on the user experience for this project. As the ajax call is happening I would add a loading animation to the button to indicate to users that 
-it is not clickable at that time. 
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+For continued development I would add a loading animation to the button while the ajax call is happening to improve the UX. 
 
 ## Author
 
